@@ -1,0 +1,33 @@
+.main-wrapper
+  padding-top: 24px
+  padding-bottom: 24px
+
+.main-head
+  border-bottom: 1px solid #eee
+  margin-bottom: 24px
+  padding-bottom: 6px
+
+.main-head__title
+  margin-bottom: 0
+
+.main-body
+  font-size: 16px
+  line-height: 1.6
+
+.main-grid
+  +cf
+  +media-query(desk)
+    margin-left: -24px
+
+.main-cell
+  +media-query(desk)
+    float: left
+    padding-left: 24px
+
+.main-cell--main
+  +media-query(desk)
+    width: 70%
+
+.main-cell--aside
+  +media-query(desk)
+    width: 30%
