@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><%= site_name %></title>
+    <% if(environment == "production") { %>
+        <% root = root_prod %>
+    <% } else { %>
+        <% root = root_dev %>
+    <% } %>
     <link rel="stylesheet" href="<%= root %>css/style.css" type="text/css" />
 </head>
 <body>

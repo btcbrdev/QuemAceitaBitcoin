@@ -1,6 +1,8 @@
 {
     "globals" : {
         "site_name": "Quem Aceita Bitcoin",
-        "root": "http://localhost:3000/"
+        "site_css":  "./css",
+        "root_dev": "http://localhost:3000/",
+        "root_prod": "http://btcbrdev.github.io/temp/"
     }
 }
